@@ -13,6 +13,8 @@
 		09C00B3D2794B65900304B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C00B3B2794B65900304B12 /* Main.storyboard */; };
 		09C00B3F2794B65A00304B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C00B3E2794B65A00304B12 /* Assets.xcassets */; };
 		09C00B422794B65A00304B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C00B402794B65A00304B12 /* LaunchScreen.storyboard */; };
+		09C00B4A2794B8C200304B12 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C00B492794B8C200304B12 /* detailsVC.swift */; };
+		09C00B4C2794C89A00304B12 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C00B4B2794C89A00304B12 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		09C00B3E2794B65A00304B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C00B412794B65A00304B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C00B432794B65A00304B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C00B492794B8C200304B12 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		09C00B4B2794C89A00304B12 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				09C00B372794B65900304B12 /* SceneDelegate.swift */,
 				09C00B392794B65900304B12 /* ViewController.swift */,
 				09C00B3B2794B65900304B12 /* Main.storyboard */,
+				09C00B492794B8C200304B12 /* detailsVC.swift */,
 				09C00B3E2794B65A00304B12 /* Assets.xcassets */,
 				09C00B402794B65A00304B12 /* LaunchScreen.storyboard */,
 				09C00B432794B65A00304B12 /* Info.plist */,
+				09C00B4B2794C89A00304B12 /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C00B3A2794B65900304B12 /* ViewController.swift in Sources */,
+				09C00B4A2794B8C200304B12 /* detailsVC.swift in Sources */,
 				09C00B362794B65900304B12 /* AppDelegate.swift in Sources */,
 				09C00B382794B65900304B12 /* SceneDelegate.swift in Sources */,
+				09C00B4C2794C89A00304B12 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
